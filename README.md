@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="400" src="https://cdn-icons-png.flaticon.com/512/3135/3135679.png">
+  <img width="200" src="https://cdn-icons-png.flaticon.com/512/3135/3135679.png">
 </div>
 
 ---
@@ -45,7 +45,7 @@ npm start
 <img src="readme_imgs/view.png" alt="Previw desktop"></img>
 <br>
 
-### Veja o projeto em funcionamento <a href="">aqui</a>. 🧐
+### Veja o projeto em funcionamento <a href="https://controle-financeiro-react.netlify.app/">aqui</a>. 🧐
 
 ---
 
