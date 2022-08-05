@@ -3,7 +3,7 @@ import Home from './components/home'
 
 function App() {
   return (
-    <div>
+    <div style={{width: '100%'}}>
       <Home />
     </div>
   );

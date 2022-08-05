@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-    width: 100vw;
+    width: 100%;
     height: 180px;
     top: 0;
     background: #764AF1;
@@ -118,29 +118,32 @@ export const TableArea = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1em;
 `
 
 export const TableAreaHeader = styled.div`
     width: 100%;
     display: flex;
-    margin: 20px auto;
-    border-radius: 5px;
-    background: #F2F2F2;
-    box-shadow: 1px 1px 4px #00000040;
+    margin: 0 auto;
+    border-radius: 3px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 1em;
+    width: 100%;
+    background: #fff;
+    padding: 1.5em 0;
 `;
 
 export const TableInfoArea1 = styled.div`
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
+    width: 100%;
 
 `
 export const TableInfoText = styled.div`
-    padding: 0 10em 0 1em;
+    font-size: 20px;
+    font-weight: 600;
+    width: 250px;
+    text-align: center;
 `
 
 export const TableInfoText2 = styled.div`
@@ -151,9 +154,22 @@ export const TableInfoArea2 = styled.div`
 `
 export const ContainerInfo = styled.div`
     display: flex;
-    width: 100%; 
-    background: gold;
+    width: 100%;
+    justify-content: space-around;
 `
 export const ContainerInfoItem = styled.div`
-    background: red;
+    display: flex;
+    display: block;
+    color: #222;
+    font-size: 18px;
+    font-weight: 500;
 `
+
+export const Chart = styled.div``
+export const ContainerHeader = styled.div``
+export const ButtonViewChart = styled.div``
+// export const ContainerInfoItem = styled.div``
+// export const ContainerInfoItem = styled.div``
+// export const ContainerInfoItem = styled.div``
+// export const ContainerInfoItem = styled.div``
+// export const ContainerInfoItem = styled.div``
